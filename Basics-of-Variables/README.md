@@ -17,9 +17,13 @@
   >} <br>
   >console.log(x); <br>
 >}
+><br>
+> varFunction(); <br>
 ### Output:
 
 ```999```
+
+take me to [pookie](#pookie)
 
 - As seen in the example, because the variable `x`
  is outside the closure of the if statement, the new declaration redefines `x` (line 4) and overrides the initial declaration (line 2).
@@ -32,7 +36,10 @@
    > var x = "999"; <br>
   >} <br>
   >console.log(x); <br>
->}
+>} <br>
+><br>
+>varFunctionGlobal(); <br>
+>console.log(x); <br>
   ### Output:
 
   ```999``` <br>
@@ -42,3 +49,7 @@
 
 ## 2. Declaring with the let keyword
 ---
+
+
+
+### <a name="pookie">pookie</a>
